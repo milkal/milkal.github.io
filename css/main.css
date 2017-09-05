@@ -2,8 +2,23 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+@font-face {
+font-family: 'Montserrat-Light';
+src: url milkal.github.io/css/Montserrat-Light.otf
+src: url(Montserrat-Light.otf);
+}
+@font-face {
+font-family: 'Montserrat-ExtraLight';
+src: url milkal.github.io/css/Montserrat-ExtraLight.otf
+src: url(Montserrat-ExtraLight.otf);
+}
+@font-face {
+font-family: 'Montserrat-Regular';
+src: url milkal.github.io/css/Montserrat-Regular.otf
+src: url(Montserrat-Regular.otf);
+}
 nav ul, footer ul {
-    font-family:'Montserrat', 'Montserrat', 'Montserrat';
+    font-family:'Montserrat-Light', 'Helvetica', 'Arial';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -17,25 +32,30 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: line-through;
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Montserrat-Regular', 'Helvetice', 'Arial';
+}
+h2 {
+    font-size: 1.5em;
+    font-family:'Montserrat-Regular', 'Helvetica', 'Arial';
+    color: #7C7C7C
 }
 p {
     font-size: 1.5em;
-    font-family: 'Montserrat', 'Arial';
+    font-family: 'Montserrat-Light', 'Helvetica', 'Arial';
     line-height: 1.4em;
-    color: #333;
+    color: #7C7C7C;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
