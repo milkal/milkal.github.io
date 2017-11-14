@@ -4,17 +4,17 @@ body {
 }
 @font-face {
 font-family: 'Montserrat-Light';
-src: url milkal.github.io/css/Montserrat-Light.otf
+src: url milkal.github.io/css/fonts/Montserrat-Light.otf
 src: url(Montserrat-Light.otf);
 }
 @font-face {
 font-family: 'Montserrat-ExtraLight';
-src: url milkal.github.io/css/Montserrat-ExtraLight.otf
+src: url milkal.github.io/css/fonts/Montserrat-ExtraLight.otf
 src: url(Montserrat-ExtraLight.otf);
 }
 @font-face {
 font-family: 'Montserrat-Regular';
-src: url milkal.github.io/css/Montserrat-Regular.otf
+src: url milkal.github.io/css/fonts/Montserrat-Regular.otf
 src: url(Montserrat-Regular.otf);
 }
 nav ul, footer ul {
@@ -32,7 +32,7 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: line-through;
+    font-style: italic;
 }
 h1 {
     font-size: 3em;
