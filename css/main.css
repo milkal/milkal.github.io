@@ -62,3 +62,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-width: 100%
+}
