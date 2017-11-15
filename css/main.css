@@ -74,7 +74,17 @@ img {
 .menuimg{
 
 }
-
+.connor-grid {
+  display: flex;
+}
+.connor-col {
+  flex: 1;
+}
+@media (max-width: 700px) {
+  .connor-col {
+    flex-direction: column;
+  }
+}
 .images{
   max-width: 75%;
   overflow: hidden;
@@ -91,7 +101,7 @@ img {
   width: 100%;
 }
 
-.row{
+#row{
   content: " ";
   display: table;
   clear: both;
