@@ -66,3 +66,20 @@ ul.posts li {
 img {
   max-width: 100%;
 }
+
+.img1 {
+  max-width: 50%;
+  float: right;
+}
+
+.img2 {
+  max-height: 50%;
+  float: left;
+  vertical-align: top;
+}
+
+.img3 {
+  max-height: 50%;
+  float: left;
+  vertical-align: bottom;
+}
