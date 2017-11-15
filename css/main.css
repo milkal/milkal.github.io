@@ -76,6 +76,7 @@ img {
 }
 .connor-grid {
   display: flex;
+  flex-direction: row;
 }
 .connor-col {
   flex: 1;
