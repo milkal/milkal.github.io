@@ -67,19 +67,6 @@ img {
   max-width: 100%;
 }
 
-.img1 {
+.images{
   max-width: 75%;
-  float: left;
-}
-
-.img2 {
-  max-width: 25%;
-  float: right;
-  vertical-align: top;
-}
-
-.img3 {
-  max-width: 25%;
-  float: right;
-  vertical-align: bottom;
 }
