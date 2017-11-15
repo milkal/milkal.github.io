@@ -32,7 +32,7 @@ a {
     color: #999;
 }
 a:hover {
-    font-style: italic;
+    color: #737373;
 }
 h1 {
     font-size: 3em;
@@ -69,4 +69,13 @@ img {
 
 .images{
   max-width: 75%;
+  overflow: hidden;
+}
+
+#digitalmenu{
+  float: left;
+}
+
+#digitalmenu{
+  float: left;
 }
