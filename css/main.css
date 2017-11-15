@@ -93,10 +93,12 @@ img {
   width: 50%;
   float: left;
   text-align: center;
+  vertical-align: top;
 }
 
-#digitalmenu{
+#filemenu{
   width: 50%;
   float: left;
   text-align: center;
+  vertical-align: top;
 }
