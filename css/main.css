@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: #1d2021;
 }
 @font-face {
 font-family: 'Montserrat-Light';
@@ -29,10 +30,10 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #c4c4c4;
 }
 a:hover {
-    color: #737373;
+    color: #FFFFFF;
 }
 h1 {
     font-size: 3em;
@@ -41,13 +42,13 @@ h1 {
 h2 {
     font-size: 1.5em;
     font-family:'Montserrat-Regular', 'Helvetica', 'Arial';
-    color: #7C7C7C
+    color: #c4c4c4;
 }
 p {
     font-size: 1.5em;
     font-family: 'Montserrat-Light', 'Helvetica', 'Arial';
     line-height: 1.4em;
-    color: #7C7C7C;
+    color: #e5e5e5;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -128,4 +129,9 @@ img {
 .menurow{
   display: flex;
   max-width: 70%;
+}
+
+.menucolumn img{
+  max-width: 250px;
+  max-height: 200px;
 }
