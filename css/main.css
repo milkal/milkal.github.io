@@ -82,44 +82,39 @@ img {
   text-align: center;
 }
 
-.connor-grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.connor-col {
-  flex: 1;
-}
-.connor-row{
-  flex: 1;
-  max-width: 40%;
-  padding: 5px;
-  float: left;
-}
 @media (max-width: 700px) {
-  .connor-col {
-    flex-direction: column;
-  }
+
 }
 .images{
   max-width: 75%;
   overflow: hidden;
 }
 
-
-#digitalmenu{
-  width: 50%;
-  float: left;
-  text-align: center;
+.photomenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   vertical-align: top;
 }
 
-#filmmenu{
-  width: 50%;
-  float: left;
-  text-align: center;
-  vertical-align: top;
+.digitalmenu{
+  display: inline-block;
+  max-width: 50%;
 }
+
+.filmmenu{
+  display: inline-block;
+  max-width: 50%;
+}
+
+.digitalmenu h2 {
+  font-size: 40px;
+}
+
+.filmmenu h2 {
+  font-size: 40px;
+}
+
 
 .menuwrapper{
   display: flex;
